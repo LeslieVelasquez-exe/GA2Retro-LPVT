@@ -10,11 +10,11 @@
 #calcular y mostrar por pantalla la cantidad de ahorros tras el primer, segundo y
 #tercer años. Redondear cada cantidad a dos decimales.
 
-inversion = float(input("Introduce la inversión inicial: "))
-interes = 0.04
-balance1 = inversion * (1 + interes)
-print("Balance tras el primero año: " + str(round(balance1, 2)))
-balance2 = balance1 * (1 + interes)
-print("Balance tras el segundo año: " + str(round(balance2, 2)))
-balance3 = balance2 * (1 + interes)
-print("Balance tras el tercer año: " + str(round(balance3, 2)))
+inversion = float(input("Introduce la inversión inicial: ")) #Guardamos como float la inversión inicial.
+interes = 0.04 #Guardamos el valor dle interés.
+balance1 = inversion * (1 + interes) #Hacemos el cálculo del primer balance.
+print("Balance tras el primero año: " + str(round(balance1, 2))) #Imprimos el resultado del primir balance redondeándolo.
+balance2 = balance1 * (1 + interes) #Hacemos elcálculo del segundo balance.
+print("Balance tras el segundo año: " + str(round(balance2, 2))) #Imprimimos el resultado del segundo balanca redondeándolo.
+balance3 = balance2 * (1 + interes) #Hacemos el cálculo del tercer balance.
+print("Balance tras el tercer año: " + str(round(balance3, 2))) #Imprimimos el resultado del tercer balance, redondeándolo.

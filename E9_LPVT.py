@@ -10,11 +10,11 @@
 #muñecas vendidos en el último pedido y calcule el peso total del paquete que
 #será enviado.
 
-peso_payaso = 112
-peso_muñeca = 75
+peso_payaso = 112 #Guardamos el peso del payaso.
+peso_muñeca = 75 #Guardamos el peso de la muñeca.
 
-payasos = int(input("Introduce el número de payasos a enviar: "))
-muñecas = int(input("Introduce el número de muñecas a enviar: "))
-peso_total = peso_payaso * payasos + peso_muñeca * muñecas
+payasos = int(input("Introduce el número de payasos a enviar: ")) #Guardamos con int el número de payasos
+muñecas = int(input("Introduce el número de muñecas a enviar: ")) #Guardamos con int el número de muñecas
+peso_total = peso_payaso * payasos + peso_muñeca * muñecas #Calculamos el peso total multiplicando la cantidad por su peso.
 
-print("El peso total del paquete es: " + str(peso_total))
+print("El peso total del paquete es: " + str(peso_total)) #Imprimimos el resultado.

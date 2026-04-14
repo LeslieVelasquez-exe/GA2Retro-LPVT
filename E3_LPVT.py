@@ -5,5 +5,5 @@
 #después de que el usuario lo introduzca muestre por pantalla la cadena ¡Hola
 #<nombre>!, donde <nombre> es el nombre que el usuario haya introducido.
 
-nombre = input("Introduce tu nombre: ")
-print("¡Hola " + nombre + "!")
+nombre = input("Introduce tu nombre: ") #Guardamjos el nombre del usuario
+print("¡Hola " + nombre + "!") #Imprimimos un saludo personalizado con ese dato.
